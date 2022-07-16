@@ -1,0 +1,51 @@
+main {
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+}
+body{
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.container {
+    text-align: center;
+    
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    font-family: 'Edu SA Beginner', cursive;
+    
+}
+
+.btn-click {
+    border-radius: 8px;
+    color: black;
+    background-color: #CCCCCC;
+    border: 2px solid #555555;
+
+}
+
+.btn-click:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.container h1 {
+    background-color: #222;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 8px;
+
+}
